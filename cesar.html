@@ -1,0 +1,41 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <script src="./js/cesar.js"></script>
+</head>
+<body>
+
+    <div class="imagenFondo">
+        <img src="./fondo.jpg" alt="">
+    </div>
+
+    <div class="main">
+        <h1>Cifrado <br> Cesar</h1>
+        <div class="contenedor">
+
+            <div class="opciones">
+                <input type="text" id="cadena" placeholder="texto a cifrar"><br>
+                <input type="number" id="desplazamiento" placeholder="desplaxamiento del cifrado">
+            </div>
+
+            <div class="botonesC">
+                <button onclick="cifrar()">Cifrar</button>
+                <button onclick="descifrar()">Descifrar</button>
+            </div>
+
+            <div class="textoCifrado">
+                <input type="text" id="resultado" readonly>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css y js -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <script src="./js/vinagre.js"></script>
+    <title>Viggenere</title>
+</head>
+
+<body>
+
+    <div class="imagenFondo">
+        <img src="./fondo.jpg" alt="">
+    </div>
+    <div class="main">
+        <h1>Cifrado <br> Viggenere</h1>
+        <div class="contenedor">
+            <div class="opciones">
+                <input type="text" id="mess" placeholder="texto a cifrar"><br>
+                <input type="text" id="llave" placeholder="Llave">
+            </div>
+
+            <div class="botonesC">
+                <button id="ci">Cifrar</button>
+                <button id="de">Descifrar</button>
+            </div>
+
+            <div class="textoCifrado">
+                <input type="text" id="rs" readonly>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
